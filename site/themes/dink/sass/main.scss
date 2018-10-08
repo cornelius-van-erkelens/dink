@@ -1,0 +1,215 @@
+//Algemeen
+
+p { font-family: 'uni sans'; }
+
+//buttons
+
+.white-btn {
+
+   padding: 10px 35px;
+   background-color: white;
+   color: $purple;
+   font-family: 'uni sans';
+   font-size: 900;
+   display: inline-block;
+
+}
+
+.white-btn:hover {
+
+   text-decoration: none;
+
+}
+
+//entry
+.entry {
+
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   background-image: url('../img/loadingscreen.svg');
+   background-position: center;
+   background-size: cover;
+   // animation-name: entry;
+   // animation-duration: 6s;
+   // animation-fill-mode: forwards;
+   // animation-delay: 200ms;
+   // animation-timing-function: ease-in;
+   opacity: 0;
+   z-index: 2;
+   display: none;
+
+}
+
+.logo-wrapper {
+
+   width: 200px;
+   height: 100px;
+
+}
+
+.logo-entry {
+
+   width: 200px;
+   height: 100px;
+   background-image: url('../img/logo.svg');
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   animation-name: entryLogo;
+   animation-duration: 4.5s;
+   animation-fill-mode: forwards;
+   animation-delay: 500ms;
+   filter: blur(50px);
+   opacity: 0;
+
+}
+
+//navigation
+
+.nav {
+   padding-left: 35px;
+   padding-right: 35px;
+   padding-top: 35px;
+   height: 100px;
+   width: 100%;
+   // animation: navAnimation 1s;
+   // animation-timing-function: ease-in-out;
+   // animation-fill-mode: forwards;
+   // transform: translateY(-200px);
+   // animation-delay: 5.5s;
+   position: absolute;
+   z-index: 2;
+
+   .columns {
+
+      margin: 0px;
+
+   }
+
+   .column {
+      padding: 0px;
+   }
+}
+
+.nav-right {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.logo-nav {
+
+   width: 108px;
+   height: 35px;
+   background-image: url('../img/logo-white.svg');
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+}
+
+.nav-ul li {
+
+   color: white;
+   height: 25px;
+   font-family: 'uni sans';
+   font-weight: 900;
+   display: inline-block;
+   align-items: center;
+   line-height: 20px;
+   position: relative;
+
+}
+
+.menu-trigger-icon {
+
+   width: 32px;
+   height: 20px;
+   background-image: url('../img/menu-trigger.svg');
+   display: inline-block;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-left: 20px;
+   position: absolute;
+   top: -2px;
+
+}
+
+.li-menu-trigger {
+
+   margin-right: 56px;
+
+}
+
+.nav-ul li a {
+
+   color: white;
+   font-family: 'uni sans';
+   font-weight: 900;
+
+}
+
+.nav-ul li a:hover {
+
+   text-decoration: none;
+
+}
+
+.dropdown-nav {
+
+   position: absolute;
+   top: 100%;
+   right: 0px;
+   width: 150px;
+   opacity: 0;
+   visibility: hidden;
+   transition: 300ms;
+
+   ul {
+      padding-top: 15px;
+
+      li {
+
+         width: 100%;
+         text-align: right;
+
+         a {
+
+            color: $purple;
+            font-size: 14px;
+            font-weight: 600;
+
+         }
+
+      }
+
+   }
+
+}
+
+.contact-btn-menu:hover .dropdown-nav {
+
+   opacity: 1;
+   visibility: visible;
+
+}
+
+
+//helpers
+$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m-#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .p-#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}

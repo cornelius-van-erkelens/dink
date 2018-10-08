@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Heavy.eot');
+    src: url('Uni-Sans-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Heavy.woff2') format('woff2'),
+        url('Uni-Sans-Heavy.woff') format('woff'),
+        url('Uni-Sans-Heavy.ttf') format('truetype'),
+        url('Uni-Sans-Heavy.svg#Uni-Sans-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans Book';
+    src: url('Uni-Sans-Book-Italic.eot');
+    src: url('Uni-Sans-Book-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Book-Italic.woff2') format('woff2'),
+        url('Uni-Sans-Book-Italic.woff') format('woff'),
+        url('Uni-Sans-Book-Italic.ttf') format('truetype'),
+        url('Uni-Sans-Book-Italic.svg#Uni-Sans-Book-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Bold.eot');
+    src: url('Uni-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Bold.woff2') format('woff2'),
+        url('Uni-Sans-Bold.woff') format('woff'),
+        url('Uni-Sans-Bold.ttf') format('truetype'),
+        url('Uni-Sans-Bold.svg#Uni-Sans-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Thin.eot');
+    src: url('Uni-Sans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Thin.woff2') format('woff2'),
+        url('Uni-Sans-Thin.woff') format('woff'),
+        url('Uni-Sans-Thin.ttf') format('truetype'),
+        url('Uni-Sans-Thin.svg#Uni-Sans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Heavy-Italic.eot');
+    src: url('Uni-Sans-Heavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Heavy-Italic.woff2') format('woff2'),
+        url('Uni-Sans-Heavy-Italic.woff') format('woff'),
+        url('Uni-Sans-Heavy-Italic.ttf') format('truetype'),
+        url('Uni-Sans-Heavy-Italic.svg#Uni-Sans-Heavy-Italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Uni Sans Book';
+    src: url('Uni-Sans-Book.eot');
+    src: url('Uni-Sans-Book.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Book.woff2') format('woff2'),
+        url('Uni-Sans-Book.woff') format('woff'),
+        url('Uni-Sans-Book.ttf') format('truetype'),
+        url('Uni-Sans-Book.svg#Uni-Sans-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Thin-Italic.eot');
+    src: url('Uni-Sans-Thin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Thin-Italic.woff2') format('woff2'),
+        url('Uni-Sans-Thin-Italic.woff') format('woff'),
+        url('Uni-Sans-Thin-Italic.ttf') format('truetype'),
+        url('Uni-Sans-Thin-Italic.svg#Uni-Sans-Thin-Italic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Bold-Italic.eot');
+    src: url('Uni-Sans-Bold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Bold-Italic.woff2') format('woff2'),
+        url('Uni-Sans-Bold-Italic.woff') format('woff'),
+        url('Uni-Sans-Bold-Italic.ttf') format('truetype'),
+        url('Uni-Sans-Bold-Italic.svg#Uni-Sans-Bold-Italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-SemiBold-Italic.eot');
+    src: url('Uni-Sans-SemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-SemiBold-Italic.woff2') format('woff2'),
+        url('Uni-Sans-SemiBold-Italic.woff') format('woff'),
+        url('Uni-Sans-SemiBold-Italic.ttf') format('truetype'),
+        url('Uni-Sans-SemiBold-Italic.svg#Uni-Sans-SemiBold-Italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Light.eot');
+    src: url('Uni-Sans-Light.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Light.woff2') format('woff2'),
+        url('Uni-Sans-Light.woff') format('woff'),
+        url('Uni-Sans-Light.ttf') format('truetype'),
+        url('Uni-Sans-Light.svg#Uni-Sans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-SemiBold.eot');
+    src: url('Uni-Sans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-SemiBold.woff2') format('woff2'),
+        url('Uni-Sans-SemiBold.woff') format('woff'),
+        url('Uni-Sans-SemiBold.ttf') format('truetype'),
+        url('Uni-Sans-SemiBold.svg#Uni-Sans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans Regular';
+    src: url('Uni-Sans-Regular-Italic.eot');
+    src: url('Uni-Sans-Regular-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Regular-Italic.woff2') format('woff2'),
+        url('Uni-Sans-Regular-Italic.woff') format('woff'),
+        url('Uni-Sans-Regular-Italic.ttf') format('truetype'),
+        url('Uni-Sans-Regular-Italic.svg#Uni-Sans-Regular-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Regular.eot');
+    src: url('Uni-Sans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Regular.woff2') format('woff2'),
+        url('Uni-Sans-Regular.woff') format('woff'),
+        url('Uni-Sans-Regular.ttf') format('truetype'),
+        url('Uni-Sans-Regular.svg#Uni-Sans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('Uni-Sans-Light-Italic.eot');
+    src: url('Uni-Sans-Light-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Uni-Sans-Light-Italic.woff2') format('woff2'),
+        url('Uni-Sans-Light-Italic.woff') format('woff'),
+        url('Uni-Sans-Light-Italic.ttf') format('truetype'),
+        url('Uni-Sans-Light-Italic.svg#Uni-Sans-Light-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
